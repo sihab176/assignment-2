@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+
+
+
+  /* header-releted-styles */
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 140px;
+}
+.header-text-logo{
+    display: flex;
+    /* margin-left: 0px; */
+}
+nav ul li{
+    list-style: none;
+    display: flex;
+   
+    margin-right: 2rem;
+}
+.li-1{
+    color:#FEA301 ;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.li-2{
+    color:#01ACFD ;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.li-3{
+    color:rgba(5, 212, 223, 1);
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.li-4{
+    color:rgba(93, 88, 239, 1) ;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+
+nav ul{
+    display: flex;
+}
+.header-btn{
+    padding: 0rem 3.98rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: white;
+    background-color: #FEA301;
+    border-radius: 0.625rem;
+    border: none;
+}
+.header-title{
+    color: #111111;
+}
+.Hamburger-menu{
+    font-size: 1.9rem;
+    cursor: pointer;
+    display: none;
+
+}
+/* hero section */
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 140px;
+}
+.hero-title{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.Empowering{
+    color:#FEA301 ;
+}
+.age{
+    color:#01ACFD ;
+}
+.hero-btn{
+    background-color: #111111;
+    padding: 0.7rem 3rem;
+    border-radius: 12px;
+    color: white;
+}
+.hr{
+    display: none;
+}
+/* standerd-box-styles */
+.Standard{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 5rem 8.36rem;
+    margin-right: 140px;
+
+}
+.Standard-section{
+    background-image: url(../assets/bg.png);
+}
+.box-1{
+    
+    height: 30rem;
+    width: 22rem;
+    border-radius: 1.12rem;
+    padding: 60px;
+    text-align: center;
+    align-items: center;
+    margin-right: 1.76rem ;
+    background:linear-gradient(#DEF5FF, white);
+}
+.box-2{
+    
+    height: 30rem;
+    width: 22rem;
+    border-radius: 1.12rem;
+    padding: 60px;
+    text-align: center;
+    align-items: center;
+    margin-right: 1.76rem ;
+    background:linear-gradient(#FFF4DC, white);
+}
+.box-3{
+    
+    height: 30rem;
+    width: 22rem;
+    border-radius: 1.12rem;
+    padding: 60px;
+    text-align: center;
+    align-items: center;
+    background: linear-gradient(#F2E8FF, white);
+   
+}
+.h-1, .p-2, .p-3, .img-1 {
+    margin-bottom: 50px;
+}
+.Standard-header{
+    text-align: center;
+    font-size: 2.87rem;
+    font-weight: bold;
+    margin-top: 3.8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .header-title, .header-ul, .header-btn{
+        display: none;
+    }
+    .Hamburger-menu{
+        display: block;
+        /* margin-left: 150px; */
+    }
+    .header-nav{
+        display: flex;
+        justify-content: space-between;
+        margin:10px 20px;
+        align-items: center;
+        /* border-bottom: 1px solid red; */
+        margin-bottom: 2px solid red;
+        
+    }
+    .header-text-logo{
+        /* margin-right: 100px; */
+        /* margin-left: 0px; */
+
+    }
+    .header-img{
+        width: 100%;
+        height: auto;
+    }
+    .hero{
+        flex-direction: column-reverse;
+        margin: 0px ;
+        text-align: c;
+      
+    }
+    .hero-img img{
+        width: 100%;
+        height: auto;
+    }
+    .hero-title{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .hero-container{
+        text-align: center;
+    }
+    .hr{
+        display: block;
+    }
+    
+}
