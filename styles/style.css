@@ -116,6 +116,7 @@ nav ul{
     align-items: center;
     margin-right: 1.76rem ;
     background:linear-gradient(#DEF5FF, white);
+    border: 2px solid #DEF5FF;
 }
 .box-2{
     
@@ -127,6 +128,7 @@ nav ul{
     align-items: center;
     margin-right: 1.76rem ;
     background:linear-gradient(#FFF4DC, white);
+    border: 2px solid #FFF4DC;
 }
 .box-3{
     
@@ -137,10 +139,23 @@ nav ul{
     text-align: center;
     align-items: center;
     background: linear-gradient(#F2E8FF, white);
+    border: 2px solid #F2E8FF;
    
 }
 .h-1, .p-2, .p-3, .img-1 {
     margin-bottom: 50px;
+}
+.p-2{
+    color:#808080 ;
+}
+.color-1{
+    color:#64C8FF ;
+}
+.color-2{
+    color: #F0AA00;
+}
+.color-3{
+    color: #8700FF;
 }
 .Standard-header{
     text-align: center;
@@ -148,6 +163,148 @@ nav ul{
     font-weight: bold;
     margin-top: 3.8rem;
 }
+.button-gtls{
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+
+}
+.greate-then , .less-then{
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #FEA301;
+    padding: 30px;
+    border-radius: 100px;
+    color: white;
+    border: none;
+
+}
+/* img section releted styles */
+.multi-pic-title{
+    text-align: center;
+    font-size: 2.87rem;
+    font-weight: bold;
+    margin-top: 5rem;
+}
+.img-section{
+    display: flex;
+    justify-content: center;
+    margin: 80px 140px;
+    
+}
+.img-children{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.left-img{
+    align-items: center;
+    width: 33.75rem;
+    height: 39.37rem;
+    margin-right: 25px;
+    margin-bottom: 19px;
+   
+    border-radius: 1rem;
+    
+    /* padding: 20px; */
+    
+}
+.picture-1 {
+    width: 18.125rem;
+    height: 18.812rem;
+    margin-right: 25px;
+    margin-bottom: 19px;
+   
+    border-radius: 1rem;
+}
+.picture-2{
+    width: 18.125rem;
+    height: 18.812rem;
+    margin-bottom: 19px;
+   
+    border-radius: 1rem;
+
+}
+.picture-3{
+    width: 18.125rem;
+    height: 18.812rem;
+    margin-right: 25px;
+    
+   
+    border-radius: 1rem;
+}
+.picture-4{
+    width: 18.125rem;
+    height: 18.812rem;
+    margin-bottom: 19px;
+   
+    border-radius: 1rem;
+}
+.ima-radius{
+    border-radius: 1rem 1rem 0rem 0rem ;
+}
+.girls-boy{
+    padding: 20px;
+}
+.fun{
+    font-size: 1.62rem;
+}
+.margin-left{
+    margin-left: 1rem;
+    margin-right: 0.625rem;
+}
+.button-1{
+    padding: 15px 25px;
+    color: white;
+    border-radius: 3rem;
+    border: none;
+    background-color: rgba(60, 216, 232, 1);
+    position: relative;
+    margin-top: -100px;
+    margin-left: 50px;
+    z-index: 3;
+}
+.button-2 , .button-4, .button-5{
+    padding: 15px 25px;
+    color: white;
+    border-radius: 3rem;
+    border: none;
+    background-color: #95B226;
+    position: relative;
+    margin-top: -100px;
+    margin-left: 50px;
+}
+.button-3{
+    padding: 15px 25px;
+    color: white;
+    border-radius: 3rem;
+    border: none;
+    background-color: rgba(93, 88, 240, 1);
+    position: relative;
+    margin-top: -100px;
+    margin-left: 50px;
+}
+.View-All{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+#button-view{
+    padding: 10px 60px;
+    background-color: #111111;
+    color: white;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    font-size: 1.25rem;
+}
+.section-bg{
+    background: linear-gradient(to bottom,  white ,rgba(254, 163, 1, 0.3));
+    /* background-image: url(../assets/bg.png); */
+}
+.background-img{
+    background-image: url(../assets/bg.png);
+}
+
 
 
 
@@ -185,16 +342,19 @@ nav ul{
     .header-img{
         width: 100%;
         height: auto;
+        margin: 10px 15px;
     }
     .hero{
         flex-direction: column-reverse;
         margin: 0px ;
-        text-align: c;
+        text-align: center;
       
     }
     .hero-img img{
-        width: 100%;
+        width: 90%;
         height: auto;
+        overflow: hidden;
+        
     }
     .hero-title{
         font-size: 2rem;
@@ -206,5 +366,43 @@ nav ul{
     .hr{
         display: block;
     }
-    
+    .Standard{
+        grid-template-columns: repeat(1,1fr);
+        margin: 0px 0px;
+        margin-bottom: 20px;
+        
+    }
+    ..Standard-header{
+        font-size: 1.62rem;
+    }
+    .box-1{
+        height: 30rem;
+        width: 20rem;
+        padding: 28px;
+        margin-right: 0px;
+        margin-left: 10px;
+        overflow: hidden;
+        margin-bottom: 15px;
+    }
+    .box-2{
+        height: 30rem;
+        width: 20rem;
+        padding: 28px;
+        margin-right: 0px;
+        margin-left: 10px;
+        overflow: hidden;
+        margin-bottom: 15px;
+    }
+    .box-3{
+        height: 30rem;
+        width: 20rem;
+        padding: 28px;
+        margin-right: 0px;
+        margin-left: 10px;
+        overflow: hidden;
+       
+    }
+    .button-gtls{
+        display: none;
+    }
 }

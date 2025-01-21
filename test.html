@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 14px;
+        /* background: #000; */
+      }
+      .image {
+        height: 350px;
+        width: 100%;
+        background: #000;
+      }
+      .big-child {
+        /* grid-column: span 3; */
+        /* grid-row: span 2; */
+        height: 100%;
+        background: "red";
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="image big-child"></div>
+      <div class="image"></div>
+      <div class="image"></div>
+      <div class="image"></div>
+      <div class="image"></div>
+      <div class="image"></div>
+    </div>
+  </body>
+</html>
