@@ -73,6 +73,16 @@ nav ul{
 
 }
 /* hero section */
+.marquee{
+    background-color:#19b1f8;
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+    color: #FEA301;
+    /* color: rgb(20, 105, 20); */
+    
+
+}
 .hero{
     display: flex;
     justify-content: space-between;
@@ -95,6 +105,12 @@ nav ul{
     border-radius: 12px;
     color: white;
     border: none;
+    transition: all 0.6s ease-in-out;
+}
+.hero-btn:hover{
+    transform: translate(-5px);
+    /* background: transparent; */
+    /* color: var(--main-color); */
 }
 .hr{
     display: none;
@@ -266,6 +282,7 @@ nav ul{
 .margin-left{
     margin-left: 1rem;
     margin-right: 0.625rem;
+    margin-top: 30px;
 }
 .button-1{
     padding: 15px 25px;
@@ -300,6 +317,7 @@ nav ul{
     position: relative;
     margin-top: -100px;
     margin-left: 50px;
+    
     /* margin-right: -50px; */
 }
 .View-All{
